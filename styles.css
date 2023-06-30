@@ -32,8 +32,8 @@ body {
 }
 .portfolio-link,
 .resume-link {
-  color: #fff; /* Set the color of the link */
-  text-decoration: none; /* Remove the underline */
+  color: #fff; 
+  text-decoration: none; 
 }
 .portfolio-link:hover{
   color: grey;
