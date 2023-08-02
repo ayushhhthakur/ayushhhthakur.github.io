@@ -30,15 +30,18 @@ body {
   display: inline-block;
   margin: 0;
 }
+
 .portfolio-link,
 .resume-link {
-  color: #fff; 
-  text-decoration: none; 
+  color: #fff;
+  text-decoration: none;
 }
-.portfolio-link:hover{
+
+.portfolio-link:hover {
   color: grey;
 }
-.resume-link:hover{
+
+.resume-link:hover {
   color: gray;
 }
 
@@ -158,6 +161,7 @@ strong {
 .footer p {
   text-align: center;
 }
+
 .footer a {
   color: black;
   text-decoration: none;
