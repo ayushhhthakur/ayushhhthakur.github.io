@@ -1,6 +1,5 @@
-# ayushhhthakur.github.io
+# 3D-Portfolio
+3D-Portfolio
+
 ##
-
-## My Resume Website.
-
-## Check it out [here](https://ayushhhthakur.github.io)
+Visit my portfolio [here.](https://ayush-thakur.netlify.app)
