@@ -28,12 +28,12 @@ I am open to collaboration, feedback, and connecting with fellow professionals.
 
 ## Demo
 
-Check out my portfolio [Here](https://ayush-thakur-port.netlify.app/)
+Check out my portfolio [Here](https://ayushthakur.me)
 
 ## Usage
 
-1. Clone the repository: `git clone https://github.com/ayushhhthakur/portfolio.git`
-3. Navigate to the project directory: `cd portfolio`
+1. Clone the repository: `git clone https://github.com/ayushhhthakur/ayushhhthakur.github.io.git`
+3. Navigate to the project directory: `cd ayushhhthakur.github.io`
 4. Open the `index.html` file in your web browser to view the portfolio website locally.
 5. Customize the content:
    - Replace project details and descriptions in the `projects` section.
