@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="bL3QOopJunN5XFWChqn9wzInWuxAXXPeucpKj0AGm14" />
-<!--   <meta name="google-adsense-account" content="ca-pub-2618559551076889"> -->
+  <!--   <meta name="google-adsense-account" content="ca-pub-2618559551076889"> -->
   <meta name="description"
     content="Hello there! I am Ayush Thakur, a 3rd-year computer science student at MIET Jammu. Let's connect, collaborate, and create something amazing together!">
   <meta name="keywords"
@@ -34,6 +34,9 @@
   <link rel="shortcut icon" href="https://ayushthakur.me/assets/img/favicon.ico" type="image/x-icon">
   <link rel="icon" href="assets/img/logo/logo.png" type="image/png" />
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
   <link rel="stylesheet" href="assets/css/button.css">
   <script type="module" src="assets/js/button.js" defer></script>
   <title>Ayush Thakur</title>
@@ -56,8 +59,8 @@
           <ul>
             <li><a href="javascript:void(0);" onclick="scrollToElement('#hero');" data-after="Home">Home</a></li>
             <li><a href="javascript:void(0);" onclick="scrollToElement('#about');" data-after="About">About</a></li>
-            <li><a href="javascript:void(0);" onclick="scrollToElement('#projects');" data-after="Projects">Projects</a>
-            </li>
+            <li><a href="javascript:void(0);" onclick="scrollToElement('#skills');" data-after="About">Skills</a></li>
+            <li><a href="javascript:void(0);" onclick="scrollToElement('#projects');" data-after="Projects">Projects</a></li>
             <li><a href="javascript:void(0);" onclick="scrollToElement('#contact');" data-after="Contact">Contact</a>
             </li>
             <!--<li><a href="https://blog-ayush-thakur.netlify.app" data-after="Contact">Blogs</a></li>-->
@@ -143,6 +146,22 @@
     </div>
   </section>
   <!-- End About Section -->
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="skills-header">
+      <h1 class="section-title">My <span>Skills</span></h1>
+    </div>
+    <div class="logo-slider">
+      <div class="item"><img src="./assets/logo/react.png" /></div>
+      <div class="item"><img src="./assets/logo/html.png" /></div>
+      <div class="item"><img src="./assets/logo/css.png" /></div>
+      <div class="item"><img src="./assets/logo/ts.svg" /></div>
+      <div class="item"><img src="./assets/logo/js.png" /></div>
+      <div class="item"><img src="./assets/logo/sql.png" /></div>
+    </div>
+  </section>
+  <!-- End Skills Section -->
 
   <!-- Projects Section -->
   <section id="projects">
@@ -373,6 +392,30 @@
     gtag('js', new Date());
     gtag('config', 'G-Y01BB936Q6');
   </script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script>
+    $('.logo-slider').slick({
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1500,
+      arrows: false,
+      dots: false,
+      pauseOnHover: false,
+      responsive: [{
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 4
+        }
+      }, {
+        breakpoint: 520,
+        settings: {
+          slidesToShow: 3
+        }
+      }]
+    });
+  </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2618559551076889"
     crossorigin="anonymous"></script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2618559551076889"

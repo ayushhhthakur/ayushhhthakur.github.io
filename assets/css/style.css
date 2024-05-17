@@ -358,6 +358,24 @@ p {
 
 /* End About Section */
 
+/* End Skills Section */
+
+#skills .skills-header h1 {
+	margin-bottom: 90px;
+}
+
+#skills .logo-slider {
+	margin-bottom: 90px;
+}
+
+#skills .logo-slider img {
+	aspect-ratio: 3/2;
+	object-fit: contain;
+  }
+
+/* End Skills Section */
+
+
 /* Projects section */
 #projects .projects {
 	flex-direction: column;
